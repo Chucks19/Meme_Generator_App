@@ -1,0 +1,45 @@
+.Navv {
+  max-height: 80px;
+  background-color: purple;
+  box-shadow: 5px 5px 5px;
+  color:white;
+  display:flex;
+  padding: 25px;
+  align-items: center;
+
+  
+}
+.Navv > img {
+  height: 50px;
+}
+.Navv > h2 {
+  margin-left: auto;
+  margin-right: 20px;
+  
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:30px;
+}  
+  
+.but{
+  display:grid;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  margin: 20px 40px;
+  min-height: 50px;
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+form input{
+  border:5px solid purple;
+  gap: 15px;
+  min-height: 50px;
+  margin:20px 30px;
+  border-radius: 10px;
+}
